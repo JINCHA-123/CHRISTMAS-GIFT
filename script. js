@@ -1,0 +1,11 @@
+function openGift() {
+    // Hide the gift box
+    document.getElementById('gift-box').classList.add('hidden');
+    
+    // Show the Christmas message and Santa GIF
+    document.getElementById('message').classList.remove('hidden');
+    
+    // Play Christmas music
+    const music = document.getElementById('music');
+    music.play();
+}
